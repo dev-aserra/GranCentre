@@ -15,6 +15,7 @@
         android:gravity="center">
 
         <ImageButton
+            android:id="@+id/bRestarurant"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/restaurants"
@@ -22,6 +23,7 @@
         </ImageButton>
 
         <ImageButton
+            android:id="@+id/bHotel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/hotels"
@@ -36,6 +38,7 @@
         android:gravity="center">
 
         <ImageButton
+            android:id="@+id/bCartellera"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/movies"
@@ -43,6 +46,7 @@
         </ImageButton>
 
         <ImageButton
+            android:id="@+id/bParking"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/parking"
