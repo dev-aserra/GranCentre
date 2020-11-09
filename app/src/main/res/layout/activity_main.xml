@@ -14,7 +14,6 @@
         android:orientation="horizontal"
         android:gravity="center">
 
-
         <ImageButton
             android:id="@+id/bRestarurant"
             android:layout_width="wrap_content"
