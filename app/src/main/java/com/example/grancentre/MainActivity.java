@@ -26,22 +26,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        Button b = (Button)v;
-        if(b.getId() == R.id.bRestarurant) {
-            Intent intent = new Intent(this, ActivityRestaurant.class);
-            startActivity(intent);
-        }
-        else if(b.getId() == R.id.bHotel) {
-            Intent intent = new Intent(this, ActivityHotel.class);
-            startActivity(intent);
-        }
-        else if(b.getId() == R.id.bCartellera) {
-            Intent intent = new Intent(this, ActivityCartellera.class);
-            startActivity(intent);
-        }
-        else {
-            Intent intent = new Intent(this, ActivityParking.class);
-            startActivity(intent);
+        ImageButton b = (ImageButton)v;
+        Intent intent;
+        switch (b.getId()) {
+            case R.id.bRestarurant:
+                intent = new Intent(this, ActivityRestaurant.class);
+                startActivity(intent);
+                break;
+            case R.id.bHotel:
+                intent = new Intent(this, ActivityHotel.class);
+                startActivity(intent);
+                break;
+            case R.id.bCartellera:
+                intent = new Intent(this, ActivityCartellera.class);
+                startActivity(intent);
+                break;
+            case R.id.bParking:
+                intent = new Intent(this, ActivityParking.class);
+                startActivity(intent);
+                break;
         }
     }
 }
