@@ -4,91 +4,169 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FragmentsHotel.Hotel2">
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:ignore="UselessParent">
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/card"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <!-- Media -->
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="194dp"
-            android:src="@drawable/hotel2imatge1"
-            android:scaleType="centerCrop"
-            android:contentDescription="Hola mi niña"
-            />
-
-        <LinearLayout
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="16dp">
+            android:layout_margin="8dp">
 
-            <!-- Title, secondary and supporting text -->
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/hotel2Estrellasnom1"
-                android:textAppearance="?attr/textAppearanceHeadline6"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="@string/hotel2Estrellasadreça1"
-                android:textAppearance="?attr/textAppearanceBody2"
-                android:textColor="?android:attr/textColorSecondary"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="@string/hotel2EstrellasTelefon1"
-                android:textAppearance="?attr/textAppearanceBody2"
-                android:textColor="?android:attr/textColorSecondary"
-                />
+                android:orientation="vertical">
 
-        </LinearLayout>
+                <!-- Media -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="194dp"
+                    android:src="@drawable/hotel2imatge1"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Hola mi niña"
+                    />
 
-        <!-- Buttons -->
-        <LinearLayout
-            android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hotel2Estrellasnom1"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/hotel2Estrellasadreça1"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="?android:attr/textColorSecondary"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/hotel2EstrellasTelefon1"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="?android:attr/textColorSecondary"
+                        />
+
+                </LinearLayout>
+
+                <!-- Buttons -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="Trucar"
+                        android:id="@+id/telefonHotel2Estrellas_1"
+                        style="?attr/borderlessButtonStyle"
+                        />
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pagina web"
+                        android:id="@+id/websiteHotel2Estrellas_1"
+                        style="?attr/borderlessButtonStyle"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:orientation="horizontal">
-
-            <com.google.android.material.button.MaterialButton
-                android:layout_width="wrap_content"
+            android:layout_margin="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
-                android:text="Trucar"
-                android:id="@+id/telefonHotel2Estrellas_1"
-                style="?attr/borderlessButtonStyle"
-                />
-            <com.google.android.material.button.MaterialButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pagina web"
-                android:id="@+id/websiteHotel2Estrellas_1"
-                style="?attr/borderlessButtonStyle"
-                />
+                android:orientation="vertical">
 
-        </LinearLayout>
+                <!-- Media -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="194dp"
+                    android:src="@drawable/hotel2imatge1"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Hola mi niña"
+                    />
 
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hotel2Estrellasnom1"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/hotel2Estrellasadreça1"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="?android:attr/textColorSecondary"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/hotel2EstrellasTelefon1"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="?android:attr/textColorSecondary"
+                        />
+
+                </LinearLayout>
+
+                <!-- Buttons -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="Trucar"
+                        android:id="@+id/telefonHotel2Estrellas_2"
+                        style="?attr/borderlessButtonStyle"
+                        />
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pagina web"
+                        android:id="@+id/websiteHotel2Estrellas_2"
+                        style="?attr/borderlessButtonStyle"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
+</ScrollView>
+
 </FrameLayout>

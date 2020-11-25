@@ -26,7 +26,7 @@ public class ActivityHotel extends AppCompatActivity implements Hotel2.OnHotel2F
     private ViewPager viewPager;
     private TabLayout tabLayout;
     private TabItem hotel2,hotel3,hotel4;
-    public Intent viewIntent;
+    private Intent viewIntent;
     public PagerAdapter PageAdapter;
     FragmentPagerAdapter fragmentPagerAdapter;
     Fragment fragment2 = null;
@@ -48,7 +48,7 @@ public class ActivityHotel extends AppCompatActivity implements Hotel2.OnHotel2F
         FragmentPagerAdapter fragmentPagerAdapter = (FragmentPagerAdapter) viewPager.getAdapter();
         fragment2 = (Fragment) fragmentPagerAdapter.instantiateItem(viewPager,viewPager.getCurrentItem());
 
-        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
@@ -82,7 +82,7 @@ public class ActivityHotel extends AppCompatActivity implements Hotel2.OnHotel2F
                 startActivity(viewIntent);
                 break;
             case R.id.telefonHotel2Estrellas_1:
-                viewIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:tel:938407132"));
+                viewIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:938407132"));
                 startActivity(viewIntent);
                 break;
         }
