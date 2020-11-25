@@ -5,8 +5,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.example.grancentre.FragmentsHotel.hotel1;
-
 public class PageAdapter extends FragmentPagerAdapter {
 
     private int numberTabs;
@@ -20,11 +18,9 @@ public class PageAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         switch (position){
-            case 0: return new hotel1();
-            case 1: return new hotel2();
-            case 2: return new hotel3();
-            case 3: return new hotel4();
-            case 4: return new hotel5();
+            case 0: return new Hotel2();
+            case 1: return new Hotel3();
+            case 2: return new Hotel4();
             default: return null;
         }
     }

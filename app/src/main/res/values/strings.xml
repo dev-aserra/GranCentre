@@ -2,4 +2,7 @@
     <string name="app_name">GranCentre</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hotel2Estrellasnom1"><![CDATA[B&B Hotel Barcelona Granollers]]></string>
+    <string name="hotel2Estrellasadreça1">c/ Valldoriolf, 1, Granollers 08520, Barcelona (España)</string>
+    <string name="hotel2EstrellasTelefon1">Telefon: 938 407 132</string>
 </resources>
