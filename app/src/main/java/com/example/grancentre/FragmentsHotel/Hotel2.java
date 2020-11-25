@@ -70,10 +70,17 @@ public class Hotel2 extends Fragment{
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View myView = inflater.inflate(R.layout.fragment_hotel2, container, false);
-        com.google.android.material.button.MaterialButton website = myView.findViewById(R.id.websiteHotel2Estrellas_1);
-        com.google.android.material.button.MaterialButton telefon = myView.findViewById(R.id.telefonHotel2Estrellas_1);
 
-        website.setOnClickListener(new View.OnClickListener() {
+        com.google.android.material.button.MaterialButton website1 = myView.findViewById(R.id.websiteHotel2Estrellas_1);
+        com.google.android.material.button.MaterialButton telefon1 = myView.findViewById(R.id.telefonHotel2Estrellas_1);
+
+        com.google.android.material.button.MaterialButton website2 = myView.findViewById(R.id.websiteHotel2Estrellas_2);
+        com.google.android.material.button.MaterialButton telefon2 = myView.findViewById(R.id.telefonHotel2Estrellas_2);
+
+        com.google.android.material.button.MaterialButton website3 = myView.findViewById(R.id.websiteHotel2Estrellas_3);
+        com.google.android.material.button.MaterialButton telefon3 = myView.findViewById(R.id.telefonHotel2Estrellas_3);
+
+        website1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //TODO: aquí cridem al mètode de l'activitat, és com si fos un onClick,
@@ -81,7 +88,39 @@ public class Hotel2 extends Fragment{
                 mListener.onHotel2LayoutCreated(view);
             }
         });
-        telefon.setOnClickListener(new View.OnClickListener() {
+        website2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO: aquí cridem al mètode de l'activitat, és com si fos un onClick,
+                //li passem la view on s'ha clicat
+                mListener.onHotel2LayoutCreated(view);
+            }
+        });
+        website3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO: aquí cridem al mètode de l'activitat, és com si fos un onClick,
+                //li passem la view on s'ha clicat
+                mListener.onHotel2LayoutCreated(view);
+            }
+        });
+        telefon1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO: aquí cridem al mètode de l'activitat, és com si fos un onClick,
+                //li passem la view on s'ha clicat
+                mListener.onHotel2LayoutCreated(view);
+            }
+        });
+        telefon2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO: aquí cridem al mètode de l'activitat, és com si fos un onClick,
+                //li passem la view on s'ha clicat
+                mListener.onHotel2LayoutCreated(view);
+            }
+        });
+        telefon3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //TODO: aquí cridem al mètode de l'activitat, és com si fos un onClick,

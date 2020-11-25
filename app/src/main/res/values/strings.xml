@@ -5,4 +5,12 @@
     <string name="hotel2Estrellasnom1"><![CDATA[B&B Hotel Barcelona Granollers]]></string>
     <string name="hotel2Estrellasadreça1">c/ Valldoriolf, 1, Granollers 08520, Barcelona (España)</string>
     <string name="hotel2EstrellasTelefon1">Telefon: 938 407 132</string>
+    <string name="hotel2Estrellasnom2"><![CDATA[Hotel H]]></string>
+    <string name="hotel2Estrellasadreça2">Carretera del Masnou km 14, Granollers 08400, Barcelona (España)</string>
+    <string name="hotel2EstrellasTelefon2">Telefon: 938 60 66 88</string>
+    <string name="hotel2Estrellasnom3"><![CDATA[Hotel Ibis]]></string>
+    <string name="hotel2Estrellasadreça3">C. CAN GORDI 1, POL. IND. CAN CATALA, POLIGONO INDUSTRIAL GRANOLLERS, Granollers 8400, Barcelona (España)</string>
+    <string name="hotel2EstrellasTelefon3">Telefon: 935 68 90 60</string>
+    <string name="trucar">Trucar</string>
+    <string name="pagina_web">Pagina web</string>
 </resources>

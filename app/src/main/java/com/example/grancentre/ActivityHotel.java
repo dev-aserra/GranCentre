@@ -85,6 +85,22 @@ public class ActivityHotel extends AppCompatActivity implements Hotel2.OnHotel2F
                 viewIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:938407132"));
                 startActivity(viewIntent);
                 break;
+            case R.id.websiteHotel2Estrellas_2:
+                viewIntent = new Intent("android.intent.action.VIEW", Uri.parse("https://hotelh.es/"));
+                startActivity(viewIntent);
+                break;
+            case R.id.telefonHotel2Estrellas_2:
+                viewIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:938606688"));
+                startActivity(viewIntent);
+                break;
+            case R.id.websiteHotel2Estrellas_3:
+                viewIntent = new Intent("android.intent.action.VIEW", Uri.parse("https://all.accor.com/hotel/5258/index.es.shtml?"));
+                startActivity(viewIntent);
+                break;
+            case R.id.telefonHotel2Estrellas_3:
+                viewIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:935689060"));
+                startActivity(viewIntent);
+                break;
         }
     }
 }
