@@ -65,27 +65,47 @@
 
                 <!-- Buttons -->
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:orientation="horizontal">
 
                     <com.google.android.material.button.MaterialButton
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_weight="1"
                         android:layout_marginEnd="8dp"
                         android:text="@string/trucar"
                         android:id="@+id/telefonHotel2Estrellas_1"
                         style="?attr/borderlessButtonStyle"
                         />
                     <com.google.android.material.button.MaterialButton
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_weight="1"
                         android:text="@string/pagina_web"
                         android:id="@+id/websiteHotel2Estrellas_1"
                         style="?attr/borderlessButtonStyle"
+
                         />
+
                 </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <RatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:saveEnabled="true"
+                        android:numStars="5"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/ratingBarHotel2Estrellas_1"
+                        >
+                    </RatingBar>
+                </RelativeLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
@@ -137,27 +157,45 @@
                 </LinearLayout>
                 <!-- Buttons -->
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:orientation="horizontal">
 
                     <com.google.android.material.button.MaterialButton
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_weight="1"
                         android:layout_marginEnd="8dp"
                         android:text="@string/trucar"
                         android:id="@+id/telefonHotel2Estrellas_2"
                         style="?attr/borderlessButtonStyle"
                         />
                     <com.google.android.material.button.MaterialButton
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_weight="1"
                         android:text="@string/pagina_web"
                         android:id="@+id/websiteHotel2Estrellas_2"
                         style="?attr/borderlessButtonStyle"
                         />
                 </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <RatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:saveEnabled="true"
+                        android:numStars="5"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/ratingBarHotel2Estrellas_2"
+                        >
+                    </RatingBar>
+                </RelativeLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
@@ -206,27 +244,45 @@
                 </LinearLayout>
                 <!-- Buttons -->
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:orientation="horizontal">
 
                     <com.google.android.material.button.MaterialButton
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_weight="1"
                         android:layout_marginEnd="8dp"
                         android:text="@string/trucar"
                         android:id="@+id/telefonHotel2Estrellas_3"
                         style="?attr/borderlessButtonStyle"
                         />
                     <com.google.android.material.button.MaterialButton
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_weight="1"
                         android:text="@string/pagina_web"
                         android:id="@+id/websiteHotel2Estrellas_3"
                         style="?attr/borderlessButtonStyle"
                         />
                 </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <RatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:saveEnabled="true"
+                        android:numStars="5"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/ratingBarHotel2Estrellas_3"
+                        >
+                    </RatingBar>
+                </RelativeLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
