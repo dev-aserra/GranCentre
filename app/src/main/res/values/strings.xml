@@ -2,6 +2,7 @@
     <string name="app_name">GranCentre</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Text de hotels de 2 estrellas -->
     <string name="hotel2Estrellasnom1"><![CDATA[B&B Hotel Barcelona Granollers]]></string>
     <string name="hotel2Estrellasadreça1">c/ Valldoriolf, 1, Granollers 08520, Barcelona (España)</string>
     <string name="hotel2EstrellasTelefon1">Telefon: 938 407 132</string>
@@ -11,6 +12,17 @@
     <string name="hotel2Estrellasnom3"><![CDATA[Hotel Ibis]]></string>
     <string name="hotel2Estrellasadreça3">C. CAN GORDI 1, POL. IND. CAN CATALA, POLIGONO INDUSTRIAL GRANOLLERS, Granollers 8400, Barcelona (España)</string>
     <string name="hotel2EstrellasTelefon3">Telefon: 935 68 90 60</string>
+    <!-- Text de hotels de 3 estrellas -->
+    <string name="hotel3Estrellasnom1"><![CDATA[Hotel Casa Fonda Europa]]></string>
+    <string name="hotel3Estrellasadreça1">Anselm Clave, 1, Granollers 08402, Barcelona (España)</string>
+    <string name="hotel3EstrellasTelefon1">Telefon: 938 70 03 12</string>
+    <string name="hotel3Estrellasnom2"><![CDATA[Hotel Granollers ]]></string>
+    <string name="hotel3Estrellasadreça2">AV. FRANCESC MACIA, 300, Granollers 08401, Barcelona (España)</string>
+    <string name="hotel3EstrellasTelefon2">Telefon: 938 79 51 00</string>
+    <string name="hotel3Estrellasnom3"><![CDATA[Hotel Holiday Inn Express]]></string>
+    <string name="hotel3Estrellasadreça3">Cami de can gordi 15, Granollers 08400, Barcelona (España)</string>
+    <string name="hotel3EstrellasTelefon3">Telefon: 937 01 70 00</string>
+
     <string name="trucar">Trucar</string>
     <string name="pagina_web">Pagina web</string>
 </resources>

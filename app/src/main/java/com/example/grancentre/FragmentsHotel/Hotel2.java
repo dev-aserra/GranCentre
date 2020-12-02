@@ -146,18 +146,10 @@ public class Hotel2 extends Fragment{
         } else {
             throw new RuntimeException(context.toString() + "ha d'implementar OnHotel2FragmentListener");
         }
-
     }
-
-
-    //TODO: Esborrar d'aquí el onClick
-
-
-
     public interface OnHotel2FragmentListener {
         void onHotel2LayoutCreated(View v);
     }
-
     public interface ViewInterface {
     }
 }
