@@ -25,4 +25,31 @@
 
     <string name="trucar">Trucar</string>
     <string name="pagina_web">Pagina web</string>
+    <string name="restaurantItaliaNom1">La Mezza Luna</string>
+    <string name="restaurantItaliaAdreça1">Carrer de Foment, 2, 08402 Granollers, Barcelona</string>
+    <string name="restaurantItaliaTelefon1">Telefon: 938 79 52 23</string>
+    <string name="restaurantItaliaNom2">La Tagliatella</string>
+    <string name="restaurantItaliaAdreça2">Carrer de Joan Prim, 42, 08400 Granollers, Barcelona</string>
+    <string name="restaurantItaliaTelefon2">Telefon: 938 60 48 99</string>
+    <string name="restaurantItaliaNom3">Il Sapore Italiano</string>
+    <string name="restaurantItaliaAdreça3">Carrer de Ponent, 41, 08401 Granollers, Barcelona</string>
+    <string name="restaurantItaliaTelefon3">Telefon: 938 40 15 32</string>
+    <string name="restaurantMariscNom1">La Piranya</string>
+    <string name="restaurantMariscAdreça1">Francesc Macia, 300, 08401, Granollers, Barcelona</string>
+    <string name="restaurantMariscTelefon1">Telefon: 938 79 51 00</string>
+    <string name="restaurantMariscNom2">Os Galegos</string>
+    <string name="restaurantMariscAdreça2">Travessia del Lledoner, 9,  08402 Granollers, Barcelona</string>
+    <string name="restaurantMariscTelefon2">Telefon: 938 40 30 39</string>
+    <string name="restaurantMariscNom3">Can Pipa</string>
+    <string name="restaurantMariscAdreça3">Carrer Aureli Font, 5, 08401 Granollers, Barcelona</string>
+    <string name="restaurantMariscTelefon3">Telefon: 938 79 47 69</string>
+    <string name="restaurantVegetariaNom1">Vinyam</string>
+    <string name="restaurantVegetariaAdreça1">Carrer Princesa 3,  08401 Granollers, Barcelona</string>
+    <string name="restaurantVegetariaTelefon1">Telefon: 930 23 28 99</string>
+    <string name="restaurantVegetariaNom2">Ànima de Granollers</string>
+    <string name="restaurantVegetariaAdreça2">C/ Girona, 4, 08401 Granollers, Barcelona</string>
+    <string name="restaurantVegetariaTelefon2">Telefon: 938 70 42 91</string>
+    <string name="restaurantVegetariaNom3">Denominació d\'Origen</string>
+    <string name="restaurantVegetariaAdreça3">Passeig de la Muntanya, nº2, 08402 Granollers, Barcelona</string>
+    <string name="restaurantVegetariaTelefon3">Telefon: 938 41 85 80</string>
 </resources>
