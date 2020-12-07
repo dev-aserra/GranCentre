@@ -22,6 +22,14 @@
     <string name="hotel3Estrellasnom3"><![CDATA[Hotel Holiday Inn Express]]></string>
     <string name="hotel3Estrellasadreça3">Cami de can gordi 15, Granollers 08400, Barcelona (España)</string>
     <string name="hotel3EstrellasTelefon3">Telefon: 937 01 70 00</string>
+    <!-- Text de hotels de 4 estrellas -->
+    <string name="hotel4Estrellasnom1"><![CDATA[Hotel Ciutat Granollers]]></string>
+    <string name="hotel4Estrellasadreça1">Turó Bruguet, 2, Granollers 08402, Barcelona (España)</string>
+    <string name="hotel4EstrellasTelefon1">Telefon: 938796220</string>
+    <string name="hotel4Estrellasnom2"><![CDATA[Hotel Augusta Barcelona Valles]]></string>
+    <string name="hotel4Estrellasadreça2">Autopista AP 7 Salida 13 BP5002 Km 12 5, Granollers 08410, Barcelona (España)</string>
+    <string name="hotel4EstrellasTelefon2">Telefon: 938 45 60 50</string>
+
 
     <string name="trucar">Trucar</string>
     <string name="pagina_web">Pagina web</string>

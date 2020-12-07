@@ -1,7 +1,10 @@
 package com.example.grancentre.FragmentsHotel;
 
+import android.content.Context;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -21,6 +24,8 @@ public class Hotel4 extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+
+    Hotel4.OnHotel4FragmentListener mListener;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -61,6 +66,66 @@ public class Hotel4 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_hotel4, container, false);
+        View myView = inflater.inflate(R.layout.fragment_hotel4, container, false);
+        com.google.android.material.button.MaterialButton website1 = myView.findViewById(R.id.websiteHotel4Estrellas_1);
+        com.google.android.material.button.MaterialButton telefon1 = myView.findViewById(R.id.telefonHotel4Estrellas_1);
+
+        com.google.android.material.button.MaterialButton website2 = myView.findViewById(R.id.websiteHotel4Estrellas_2);
+        com.google.android.material.button.MaterialButton telefon2 = myView.findViewById(R.id.telefonHotel4Estrellas_2);
+
+
+        website1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO: aquí cridem al mètode de l'activitat, és com si fos un onClick,
+                //li passem la view on s'ha clicat
+                mListener.onHotel4LayoutCreated(view);
+            }
+        });
+        website2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO: aquí cridem al mètode de l'activitat, és com si fos un onClick,
+                //li passem la view on s'ha clicat
+                mListener.onHotel4LayoutCreated(view);
+            }
+        });
+        telefon1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO: aquí cridem al mètode de l'activitat, és com si fos un onClick,
+                //li passem la view on s'ha clicat
+                mListener.onHotel4LayoutCreated(view);
+            }
+        });
+        telefon2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO: aquí cridem al mètode de l'activitat, és com si fos un onClick,
+                //li passem la view on s'ha clicat
+                mListener.onHotel4LayoutCreated(view);
+            }
+        });
+        return myView;
+    }
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+    }
+
+    //Afegit mètode onAttach per inicialitzar el listener
+    @Override
+    public void onAttach(@NonNull Context context) {
+        super.onAttach(context);
+        if (context instanceof Hotel4.OnHotel4FragmentListener){
+            mListener= (Hotel4.OnHotel4FragmentListener) context;
+        } else {
+            throw new RuntimeException(context.toString() + "ha d'implementar OnHotel4FragmentListener");
+        }
+    }
+    public interface OnHotel4FragmentListener {
+        void onHotel4LayoutCreated(View v);
+    }
+    public interface ViewInterface {
     }
 }
