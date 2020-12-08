@@ -33,6 +33,7 @@
 
     <string name="trucar">Trucar</string>
     <string name="pagina_web">Pagina web</string>
+    <!-- Text de restaurant italia -->
     <string name="restaurantItaliaNom1">La Mezza Luna</string>
     <string name="restaurantItaliaAdreça1">Carrer de Foment, 2, 08402 Granollers, Barcelona</string>
     <string name="restaurantItaliaTelefon1">Telefon: 938 79 52 23</string>
@@ -42,6 +43,7 @@
     <string name="restaurantItaliaNom3">Il Sapore Italiano</string>
     <string name="restaurantItaliaAdreça3">Carrer de Ponent, 41, 08401 Granollers, Barcelona</string>
     <string name="restaurantItaliaTelefon3">Telefon: 938 40 15 32</string>
+    <!-- Text de restaurant de marisc -->
     <string name="restaurantMariscNom1">La Piranya</string>
     <string name="restaurantMariscAdreça1">Francesc Macia, 300, 08401, Granollers, Barcelona</string>
     <string name="restaurantMariscTelefon1">Telefon: 938 79 51 00</string>
@@ -51,6 +53,7 @@
     <string name="restaurantMariscNom3">Can Pipa</string>
     <string name="restaurantMariscAdreça3">Carrer Aureli Font, 5, 08401 Granollers, Barcelona</string>
     <string name="restaurantMariscTelefon3">Telefon: 938 79 47 69</string>
+    <!-- Text de restaurant vegetaria -->
     <string name="restaurantVegetariaNom1">Vinyam</string>
     <string name="restaurantVegetariaAdreça1">Carrer Princesa 3,  08401 Granollers, Barcelona</string>
     <string name="restaurantVegetariaTelefon1">Telefon: 930 23 28 99</string>
@@ -60,4 +63,17 @@
     <string name="restaurantVegetariaNom3">Denominació d\'Origen</string>
     <string name="restaurantVegetariaAdreça3">Passeig de la Muntanya, nº2, 08402 Granollers, Barcelona</string>
     <string name="restaurantVegetariaTelefon3">Telefon: 938 41 85 80</string>
+    <!-- Text de parkings -->
+    <string name="parkingNom1">Pàrquing Teatre Auditori</string>
+    <string name="parkingAdreça1">Carrer de Ponent, 41, 08401 Granollers, Barcelona</string>
+    <string name="parkingPlaces1">Places disponibles: 30 | Places totals: 300</string>
+    <string name="parkingNom2">Pàrquing Escolapi Blau</string>
+    <string name="parkingAdreça2">Carrer Francisco de Quevedo, 08402 Granollers, Barcelona</string>
+    <string name="parkingPlaces2">Places disponibles: 2 | Places totals: 80</string>
+    <string name="parkingNom3">Pàrquing Corona</string>
+    <string name="parkingAdreça3">Carrer Sant Josep de Calassanç, 16, 08402 Granollers, Barcelona</string>
+    <string name="parkingPlaces3">Places disponibles: 0 | Places totals: 100</string>
+    <string name="parkingNom4">Pàrquing Estació-Atenea</string>
+    <string name="parkingAdreça4">Passeig Cristòfol Colom, 21, 08402 Granollers, Barcelona</string>
+    <string name="parkingPlaces4">Places disponibles: 90 | Places totals: 200</string>
 </resources>
