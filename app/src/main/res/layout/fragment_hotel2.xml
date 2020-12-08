@@ -103,6 +103,7 @@
                         android:numStars="5"
                         android:layout_centerInParent="true"
                         android:id="@+id/ratingBarHotel2Estrellas_1"
+                        android:theme="@style/RatingBar"
                         >
                     </RatingBar>
                 </RelativeLayout>
@@ -193,6 +194,7 @@
                         android:numStars="5"
                         android:layout_centerInParent="true"
                         android:id="@+id/ratingBarHotel2Estrellas_2"
+                        android:theme="@style/RatingBar"
                         >
                     </RatingBar>
                 </RelativeLayout>
@@ -280,6 +282,7 @@
                         android:numStars="5"
                         android:layout_centerInParent="true"
                         android:id="@+id/ratingBarHotel2Estrellas_3"
+                        android:theme="@style/RatingBar"
                         >
                     </RatingBar>
                 </RelativeLayout>

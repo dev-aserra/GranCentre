@@ -105,6 +105,7 @@
                             android:numStars="5"
                             android:layout_centerInParent="true"
                             android:id="@+id/ratingBarHotel4Estrellas_1"
+                            android:theme="@style/RatingBar"
                             >
                         </RatingBar>
                     </RelativeLayout>
@@ -195,6 +196,7 @@
                             android:numStars="5"
                             android:layout_centerInParent="true"
                             android:id="@+id/ratingBarHotel4Estrellas_2"
+                            android:theme="@style/RatingBar"
                             >
                         </RatingBar>
                     </RelativeLayout>
@@ -203,5 +205,4 @@
             <!-- TODO: No he fet tres hotels de 4 estrellas perque a granollers nome hi ha 2 hotels de 4 estrellas. -->
         </LinearLayout>
     </ScrollView>
-
 </FrameLayout>
