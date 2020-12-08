@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         app:tabContentStart="0dp"
         tools:context=".ActivityRestaurant"
-        android:background="@color/design_default_color_secondary_variant"
         android:id="@+id/tabLayout">
 
         <com.google.android.material.tabs.TabItem

@@ -29,11 +29,6 @@
     <string name="hotel4Estrellasnom2"><![CDATA[Hotel Augusta Barcelona Valles]]></string>
     <string name="hotel4Estrellasadreça2">Autopista AP 7 Salida 13 BP5002 Km 12 5, Granollers 08410, Barcelona (España)</string>
     <string name="hotel4EstrellasTelefon2">Telefon: 938 45 60 50</string>
-
-
-
-    <string name="trucar">Trucar</string>
-    <string name="pagina_web">Pagina web</string>
     <!-- Text de restaurant italia -->
     <string name="restaurantItaliaNom1">La Mezza Luna</string>
     <string name="restaurantItaliaAdreça1">Carrer de Foment, 2, 08402 Granollers, Barcelona</string>
@@ -77,13 +72,15 @@
     <string name="parkingNom4">Pàrquing Estació-Atenea</string>
     <string name="parkingAdreça4">Passeig Cristòfol Colom, 21, 08402 Granollers, Barcelona</string>
     <string name="parkingPlaces4">Places disponibles: 90 | Places totals: 200</string>
-
+    <!-- Text de pelicules -->
     <string name="peliculaTitol1">TENET</string>
     <string name="peliculaDescripcio1">Armat amb només una paraula -Tenet- el protagonista d\'aquesta història ha de lluitar per la supervivència de tot el món en una missió que el porta a viatjar a través de el fosc món de l\'espionatge internacional, i l\'experiència es desdoblarà més enllà de el temps lineal.</string>
     <string name="peliculaTitol2">El cavaller del drac</string>
     <string name="peliculaDescripcio2">Amagat als afores de Londres, Firedrake és un jove drac platejat que està cansat d\'amagar-se en el bosc i està disposat a mostrar-li a la nova generació el que és un veritable drac. Quan els humans estan a punt de destruir l\'últim refugi de la seva família, Firedrake emprèn una aventura en secret amb la seva amiga Pell de Sofre per a buscar "La Riba del Cel", les llegendes expliquen que és el santuari dels dracs. </string>
     <string name="peliculaTitol3">La vampira de Barcelona</string>
-    <string name="peliculaDescripcio3">
-A la Barcelona de principis de segle XX conviuen dues ciutats: un burgesa i modernista, l\'altra sòrdida i bruta. La desaparició de la petita Teresa Guitart, filla d\'una rica família, commociona el país i la policia té aviat una sospitosa: Enriqueta Martí, coneguda com La Vampira de Raval.  </string>
+    <string name="peliculaDescripcio3">A la Barcelona de principis de segle XX conviuen dues ciutats: un burgesa i modernista, l\'altra sòrdida i bruta. La desaparició de la petita Teresa Guitart, filla d\'una rica família, commociona el país i la policia té aviat una sospitosa: Enriqueta Martí, coneguda com La Vampira de Raval.  </string>
+
+    <string name="trucar">Trucar</string>
+    <string name="pagina_web">Pagina web</string>
 
 </resources>
