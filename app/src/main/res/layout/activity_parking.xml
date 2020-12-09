@@ -6,228 +6,241 @@
     android:layout_height="match_parent"
     android:background="@android:color/white">
 
-    <com.google.android.material.card.MaterialCardView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        card_view:cardBackgroundColor="#ece7e7">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/parking1"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/iconaparking"
-                android:layout_margin="10dp" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                card_view:cardBackgroundColor="#ece7e7">
 
-                <TextView
-                    android:id="@+id/nomparking1"
-                    android:layout_marginTop="10dp"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/parkingNom1"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/adreçaparking1"
-                    android:layout_width="wrap_content"
+                    <ImageView
+                        android:id="@+id/parking1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/iconaparking"
+                        android:layout_margin="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/nomparking1"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/parkingNom1"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/adreçaparking1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/parkingAdreça1"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="10dp"/>
+
+                        <TextView
+                            android:id="@+id/placesparking1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/parkingPlaces1"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="9dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                card_view:cardBackgroundColor="#ece7e7">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/parkingAdreça1"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginEnd="10dp"/>
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/placesparking1"
-                    android:layout_width="wrap_content"
+                    <ImageView
+                        android:id="@+id/parking2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/iconaparking"
+                        android:layout_margin="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/nomparking2"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/parkingNom2"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/adreçaparking2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/parkingAdreça2"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="10dp"/>
+
+                        <TextView
+                            android:id="@+id/placesparking2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/parkingPlaces2"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="9dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                card_view:cardBackgroundColor="#ece7e7">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/parkingPlaces1"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginEnd="9dp"/>
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <ImageView
+                        android:id="@+id/parking3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/iconaparking"
+                        android:layout_margin="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/nomparking3"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/parkingNom3"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/adreçaparking3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/parkingAdreça3"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="10dp"/>
+
+                        <TextView
+                            android:id="@+id/placesparking3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/parkingPlaces3"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="9dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                card_view:cardBackgroundColor="#ece7e7">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/parking4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/iconaparking"
+                        android:layout_margin="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/nomparking4"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/parkingNom4"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/adreçaparking4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/parkingAdreça4"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="10dp"/>
+
+                        <TextView
+                            android:id="@+id/placesparking4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/parkingPlaces4"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="9dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
 
         </LinearLayout>
 
-    </com.google.android.material.card.MaterialCardView>
-
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        card_view:cardBackgroundColor="#ece7e7">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/parking2"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/iconaparking"
-                android:layout_margin="10dp" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/nomparking2"
-                    android:layout_marginTop="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/parkingNom2"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/adreçaparking2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/parkingAdreça2"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginEnd="10dp"/>
-
-                <TextView
-                    android:id="@+id/placesparking2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/parkingPlaces2"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginEnd="9dp"/>
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </com.google.android.material.card.MaterialCardView>
-
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        card_view:cardBackgroundColor="#ece7e7">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/parking3"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/iconaparking"
-                android:layout_margin="10dp" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/nomparking3"
-                    android:layout_marginTop="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/parkingNom3"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/adreçaparking3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/parkingAdreça3"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginEnd="10dp"/>
-
-                <TextView
-                    android:id="@+id/placesparking3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/parkingPlaces3"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginEnd="9dp"/>
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </com.google.android.material.card.MaterialCardView>
-
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        card_view:cardBackgroundColor="#ece7e7">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/parking4"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/iconaparking"
-                android:layout_margin="10dp" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/nomparking4"
-                    android:layout_marginTop="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/parkingNom4"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/adreçaparking4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/parkingAdreça4"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginEnd="10dp"/>
-
-                <TextView
-                    android:id="@+id/placesparking4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/parkingPlaces4"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginEnd="9dp"/>
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </com.google.android.material.card.MaterialCardView>
+    </ScrollView>
 
 </LinearLayout>
